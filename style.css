@@ -1,0 +1,135 @@
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: block;
+}
+
+.nav-container {
+    height: 130px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 240px;
+}
+
+.nav-heading {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.nav-title {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.nav-title-G-color {
+    color: #FF42A5;
+}
+
+.nav-info {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.nav-info li {
+    list-style: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.nav-info li a {
+    text-decoration: none;
+    color: #3C354F;
+    font-size: 1.12rem;
+    font-weight: 500;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#follow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands,
+.fab {
+    font-weight: 400;
+}
+
+.fa-brands,
+.fab {
+    font-family: "Font Awesome 6 Brands";
+}
+
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display, inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.fa-youtube {
+    color: red;
+    margin-left: 24px;
+    margin-right: 18px;
+}
+
+.fa-brands {
+    font-size: 1.5rem;
+}
+
+.fa-youtube:before {
+    content: "\f167";
+}
